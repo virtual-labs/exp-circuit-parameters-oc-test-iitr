@@ -1,1 +1,1 @@
-### Aim of the experiment
+#### Determination of Transformer equivalent circuit from Open Circuit and Short Circuit Test.
