@@ -1,0 +1,46 @@
+{
+
+   "details": [
+       {
+			"Experiment": "Determination of Transformer equivalent circuit from Open Circuit and Short Circuit Test",     
+			"Lab": "Electrical Machines (Simulation)",               
+			"Discipline": "Electrical Engineering",				 
+			"Technology": "HTML, JavaScript, CSS, Google Web Designer"         
+       }
+   ],
+
+   "developer": [
+       {       
+      "Developer": "Prof. RS Anand",         
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",         
+      "InstituteAcronym": "IITR"   
+       }
+   ],
+
+   "contributer": [
+       {       
+			"Contributer": "Jasbir Singh",             
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
+			"InstituteAcronym": "IITR"         
+       },
+
+       {       
+			"Contributer": "Rajeev Kumar",              
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
+			"InstituteAcronym": "IITR"         
+       },
+
+       {       
+			"Contributer": "Priyanshi Agarwal",             
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
+			"InstituteAcronym": "IITR"         
+       },
+
+       {       
+      "Contributer": "Team Government Engineering College",              
+      "Institute": "Government Engineering College Bikaner",               
+      "InstituteAcronym": "GEC Bikaner"         
+       }
+   ]
+
+}
