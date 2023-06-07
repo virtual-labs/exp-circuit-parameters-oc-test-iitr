@@ -32,7 +32,7 @@ B 1440 kVA<br>
 C 1680 kVA<br>
 <b> D 1230 kVA<br></b>
 
-Q5. Two single phase transformers A and B are operating in parallel having same impedance. But the x/r ratio of them are not equal. Then total kVA output of the output will be<br>
+Q5. Two single phase transformers A and B are operating in parallel having same impedance. But the x/r ratio of them are not equal. Then total kVA output will be<br>
 
 A equal to sum of kVA of A and B<br>
 B more than sum of kVA of A and B<br>

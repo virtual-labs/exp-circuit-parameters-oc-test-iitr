@@ -611,15 +611,15 @@ jsPlumb.ready(function () {
            
 if ( is_connected_1_18&&is_connected_2_19&&is_connected_4_18 && is_connected_5_19 && is_connected_6_8&&is_connected_7_19 &&is_connected_9_10  &&is_connected_10_21&& is_connected_18_25 &&is_connected_26_23 
          && !unallowed_connection_present) {
-            alert("correct connection");
+            alert("Correct connection");
 			rightconnection=true;
             return;
             }
         else if(!unallowed_connection_present){
-	                           alert("Please complete connection");
+	                           alert("Please Complete connection");
 							   }
 			else {
-               alert("WRONG CONNECTION");
+               alert("Wrong Connection");
                 return;
             } 
     });
@@ -641,6 +641,24 @@ function mcbonoff()
             
             mcboffstate=false;
             document.getElementById('myimage').src='Mcbon.png';
+
+
+            document.getElementById("dis1").style.pointerEvents="none";
+            document.getElementById("dis2").style.pointerEvents="none";
+            document.getElementById("dis4").style.pointerEvents="none";
+            document.getElementById("dis5").style.pointerEvents="none";
+            document.getElementById("dis6").style.pointerEvents="none";
+            document.getElementById("dis7").style.pointerEvents="none";
+            document.getElementById("dis8").style.pointerEvents="none";
+            document.getElementById("dis9").style.pointerEvents="none";
+            document.getElementById("dis10").style.pointerEvents="none";
+            document.getElementById("dis11").style.pointerEvents="none";
+            document.getElementById("dis18").style.pointerEvents="none";
+            document.getElementById("dis19").style.pointerEvents="none";
+            document.getElementById("dis21").style.pointerEvents="none";
+            document.getElementById("dis23").style.pointerEvents="none";
+            document.getElementById("dis25").style.pointerEvents="none";
+            document.getElementById("dis26").style.pointerEvents="none";
           
         }
         else
@@ -752,13 +770,15 @@ function addtotable()
 	else if(attcounter<=0)
 	   {
 		   attcounter++;
-	       var x = table.insertRow(1);
+	       var x = mytable1.insertRow(1);
 	       var cell1 = x.insertCell(0);
 	       var cell2=x.insertCell(1);
 	       var cell3 = x.insertCell(2);
-		   cell1.innerHTML=37.5;
-		   cell2.innerHTML=4.5;
-		   cell3.innerHTML=11;
+	       var cell4 = x.insertCell(3);
+		   cell1.innerHTML=1;
+		   cell2.innerHTML=37.5;
+		   cell3.innerHTML=4.5;
+		   cell4.innerHTML=11;
 		  //Nextpage();  
 	}
 	else
@@ -771,7 +791,7 @@ function Nextpage()
 {
 	
 	if(attcounter<=0){
-		               alert("Alert! Please  add reading in table");
+		               alert("Alert! Please add reading in table");
 	}
 else {
       window.open("submitimage.html");
