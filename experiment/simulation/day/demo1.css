@@ -1,5 +1,5 @@
  body {
-    background-color: #ecf0f5;
+    background-color: linen;
 
 }
   
@@ -57,10 +57,26 @@ margin-top: -155px;
 }
 #check-button{
 	      background-color:#27d447;
-		  width:150px;
-		  height:50px;
+		  width:100px;
+		  height:40px;
 		  color:white;
+          cursor: pointer;
 }
+#check-button:hover{
+    background-color: rgb(42, 153, 42);
+}
+
+footer{
+    position: absolute;
+    background-color: grey;
+    width:1000.5px;
+    height:40px;
+    color: white;
+    margin-top: 610px;
+    margin-left: 92px;
+    text-align: center;
+}
+
 
 /** ELEMENT POSITIONS **/
 #ld1 {
