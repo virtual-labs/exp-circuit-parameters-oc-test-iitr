@@ -1,14 +1,15 @@
 
 <html>
 <head>
-  <title>jsPlumb - animation demonstration</title>
+  <title>Virtual Labs | Short Circuit Test</title>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
         <!--<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">-->
-        <link href="//fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+        <!-- <link href="//fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"> -->
          <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
       
         <link rel="stylesheet" href="demo1.css">
+        <link rel="icon" type="image/x-icon" href="vlab logo.jpg">
 		<link rel="stylesheet" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -58,7 +59,7 @@ left:31.5em;
 div
 {
   resize: both;
-  overflow: ;
+  
 }
 #wrapper {
   width:100%;
@@ -170,16 +171,22 @@ img.autoTransformerinner
 .tooltip {
   position: relative;
   display: inline-block;
-  color: blue;
+  color: white;
+  background-color: #27d447;
+  border: 2px solid black;
+  height:40px;
+  width:100px;
+  padding: 8px 8px;
+  cursor:pointer;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 350px;
-  background-color: linen;
+  width: 410px;
+  background-color: white;
   color: black;
-  text-align: left;
-  left: -5em;  
+  text-align: justify;
+  left: 7.6em;  
   border-radius: 6px;
   padding: 5px 0;
   
@@ -198,39 +205,39 @@ img.autoTransformerinner
 <body onload="disab()">
   <div class="jtk-demo-main" data-demo-id="animation" >
     <div class="jtk-demo-canvas canvas-wide animation-demo jtk-surface jtk-surface-nopan" id="canvas">
-      <div id="wrapper" style="position:absolute; top:10px;width:1000px;left:200px">
-        <div class="littledot" id="ld1"></br></br><a href="#" class="cmdLink detach" rel="ld1">-</a>
+      <div id="wrapper" style="position:absolute; top:10px;width:1000px;left:100px">
+        <div class="littledot" id="ld1"></br></br><a href="#" class="cmdLink detach" rel="ld1" id="dis1">A</a>
         </div>
-        <div class="littledot" id="ld2"></br></br><a href="#" class="cmdLink detach" rel="ld2">+</a>
+        <div class="littledot" id="ld2"></br></br><a href="#" class="cmdLink detach" rel="ld2" id="dis2">B</a>
       
         </div>
-        <div class="littledot" id="ld4"></br></br><a href="#" class="cmdLink detach" rel="ld4">-</a>
+        <div class="littledot" id="ld4"></br></br><a href="#" class="cmdLink detach" rel="ld4" id="dis4">F</a>
         </div>
-        <div class="littledot" id="ld5"></br></br><a href="#" class="cmdLink detach" rel="ld5">+</a>
+        <div class="littledot" id="ld5"></br></br><a href="#" class="cmdLink detach" rel="ld5" id="dis5">G</a>
         </div>
-        <div class="littledot" id="ld6"></br></br><a href="#" class="cmdLink detach" rel="ld6">-</a>
+        <div class="littledot" id="ld6"></br></br><a href="#" class="cmdLink detach" rel="ld6" id="dis6">H</a>
         </div>
-        <div class="littledot" id="ld7"></br></br><a href="#" class="cmdLink detach" rel="ld7">+</a>
+        <div class="littledot" id="ld7"></br></br><a href="#" class="cmdLink detach" rel="ld7" id="dis7">I</a>
         </div>
-        <div class="littledot" id="ld8"></br></br><a href="#" class="cmdLink detach" rel="ld8">M</a>
+        <div class="littledot" id="ld8"></br></br><a href="#" class="cmdLink detach" rel="ld8" id="dis8">M</a>
         </div>
-        <div class="littledot" id="ld9"></br></br><a href="#" class="cmdLink detach" rel="ld9">C</a>
+        <div class="littledot" id="ld9"></br></br><a href="#" class="cmdLink detach" rel="ld9" id="dis9">C</a>
         </div>
-        <div class="littledot" id="ld10"></br></br><a href="#" class="cmdLink detach" rel="ld10">L</a>
+        <div class="littledot" id="ld10"></br></br><a href="#" class="cmdLink detach" rel="ld10" id="dis10">L</a>
         </div>
-        <div class="littledot" id="ld11"></br></br><a href="#" class="cmdLink detach" rel="ld11">V</a>
+        <div class="littledot" id="ld11"></br></br><a href="#" class="cmdLink detach" rel="ld11" id="dis11">V</a>
         </div>
-        <div class="littledot" id="ld18"></br></br><a href="#" class="cmdLink detach" rel="ld18">-</a>
+        <div class="littledot" id="ld18"></br></br><a href="#" class="cmdLink detach" rel="ld18" id="dis18">D</a>
         </div>
-        <div class="littledot" id="ld19"></br></br><a href="#" class="cmdLink detach" rel="ld19">+</a>
+        <div class="littledot" id="ld19"></br></br><a href="#" class="cmdLink detach" rel="ld19" id="dis19">E</a>
         </div>
-        <div class="littledot" id="ld21"></br></br><a href="#" class="cmdLink detach" rel="ld21">P1</a>
+        <div class="littledot" id="ld21"></br></br><a href="#" class="cmdLink detach" rel="ld21" id="dis21">P1</a>
         </div>
-        <div class="littledot" id="ld23"></br></br><a href="#" class="cmdLink detach" rel="ld23">S2</a>
+        <div class="littledot" id="ld23"></br></br><a href="#" class="cmdLink detach" rel="ld23" id="dis23">S2</a>
         </div>
-        <div class="littledot" id="ld25"></br></br><a href="#" class="cmdLink detach" rel="ld25">P2</a>
+        <div class="littledot" id="ld25"></br></br><a href="#" class="cmdLink detach" rel="ld25" id="dis25">P2</a>
         </div>
-        <div class="littledot" id="ld26"></br></br><a href="#" class="cmdLink detach" rel="ld26">S1</a>
+        <div class="littledot" id="ld26"></br></br><a href="#" class="cmdLink detach" rel="ld26" id="dis26">S1</a>
         </div>
 		<label id="lbl_voltmeter"><strong>Voltmeter</strong></label>
 		<label id="lbl_ammeter">Ammeter</label>
@@ -273,26 +280,55 @@ img.autoTransformerinner
                         </div>
                      </div>
             </div> 
-			<div style="text-align:right;position:absolute;left:55em;top:12em;">
-			<div class="tooltip" "><u><B>Instruction</B></u>
+			<div style="text-align:right;position:absolute;left:55em;top:1em;">
+			<div class="tooltip"><u><B>Instruction</B></u>
   <span class="tooltiptext">
   
 
-	<B>Step 1: </B>Make the proper connection by clicking the node as instructed below. <br/> If the wire is misplaced, click the node number to deattach the nodes' wire. <br/>
-1)  Connect +ve terminal of battery to +ve terminal of autotransformer and -ve terminal of MCB to -ve terminal of autotransformer.<br>
-2)  Connect -ve terminal of autotransformer to -ve terminal of voltmeter and P2 of transformer.<br>
-3)  Connect +ve terminal of autotransformer to +ve terminal of voltmeter and +ve terminal of ammeter.<br>
-4)  Now connect P1 of transformer to L, P2 of transformer to V and short both S1 and S2 terminal of transformer.<br>
-5)  Connect -ve terminal of ammeter to M terminal of wattmeter.<br>
-6)  Connect C of wattmeter to L.<br>
-                    <B>Step 2: </B>Click "Check" button.
-                    <li>if connection is correct, an alert appers. Click ok.<br> Now, go to step 4.</li>
-                    <li>if connection is wrong, an alert appers. Click ok. <br>Now, go to step 3.</li>
-                    <B>Step 3: </B>Check the connection and either deattach the incorrect wire connection or Click on reset button and start from step 1.<br/>
-                    <B>Step 4: </B>Switch on the MCB.<br/>
-                    <B>Step 5: </B>Click anywhere on the autotransformer.<br/>
-                    <B>Step 6: </B>Click "Add to table" button to insert the values in the table.<br>
-                    <B>Step 7: </B> Click "Print" button, to print the full connections with graph and table.
+    <b>STEP 1: </b>Make the proper connection by clicking the node as instructed below. If the wire is wrongly connected, Click on node number to detach the wire. <br><br>
+
+    <table style="margin-left: 20px;">
+        <tr>
+            <td style="border:1px solid black;"><b>From</b></td>
+            <td style="border:1px solid black;">A</td>
+            <td style="border:1px solid black;">B</td>
+            <td style="border:1px solid black;">D</td>
+            <td style="border:1px solid black;">E</td>
+            <td style="border:1px solid black;">E</td>
+            <td style="border:1px solid black;">D</td>
+            <td style="border:1px solid black;">H</td>
+            <td style="border:1px solid black;">C</td>
+            <td style="border:1px solid black;">L</td>
+            <td style="border:1px solid black;">V</td>
+            <td style="border:1px solid black;">S1</td>
+          
+        </tr>
+        <tr>
+            <td style="border:1px solid black;"><b>To</b></td>
+            <td style="border:1px solid black;">D</td>
+            <td style="border:1px solid black;">E</td>
+            <td style="border:1px solid black;">F</td>
+            <td style="border:1px solid black;">G</td>
+            <td style="border:1px solid black;">I</td>
+            <td style="border:1px solid black;">P2</td>
+            <td style="border:1px solid black;">M</td>
+            <td style="border:1px solid black;">L</td>
+            <td style="border:1px solid black;">P1</td>
+            <td style="border:1px solid black;">P2</td>
+            <td style="border:1px solid black;">S2</td>
+           
+        </tr>
+    </table><br>
+                        <b>STEP 2: </b>Click on <b>"Check Connection"</b> button for checking the connections.
+                        <li>if connection is correct, an alert appears. Click ok.<br> Now, go to step 4.</li>
+                        <li>if connection is wrong, an alert appears. Click ok. <br>Now, go to step 3.</li><br>
+                        <b>STEP 3: </b>Check the connection and either detach the incorrect wire connection or Click on <b>"Reset"</b> button and start from step 1.<br><br>
+                        <b>STEP 4: </b>Switch on the MCB.<br><br>
+                        <b>STEP 5: </b>Click on the Autotransformer knob.<br><br>
+                        <b>STEP 6: </b>Click on <b>"Add to Table"</b> button to add the readings to the observation table.<br><br>
+                        <b>STEP 7: </b> Click on <b>"Print"</b> button to print the webpage.<br><br>
+                        <b>STEP 8: </b> Click on <b>"Submit"</b> button to get an equivalent circuit diagram of transformer.<br><br>
+                        <b>STEP 9: </b> Click on <b>"Reset"</b> button to reset the webpage.
   
   
   
@@ -302,28 +338,55 @@ img.autoTransformerinner
 	</div>		
 			
 			
-            <div style="position:absolute;left:52.8em;top:1.5em;">		  
+            <div style="position:absolute;left:55em;top:4.5em;">		  
                      <button id="check-button" ><strong>Check Connection</strong></button><br/><br/><br/>
-                     <input id="reset" type="reset" width=111px; onclick="window.location.href = 'index.html';" value="Reset">
-				<style>
-			          #reset{		
-                             font-weight: 900;
-			                 background-color:#27d447;
-			                 width:150px;
-		                     height:50px;
-		                     color:white;
-		                  	}
-			    </style>
+                     
             </div>
-		    <div style="position:absolute;left:52.76em;top:15.92em;">
+            <div style="position:absolute;left:55em;top:11.5em;">
+            <input id="reset" type="reset" width=111px; onclick="window.location.href = 'index.html';" value="Reset">
+            <style>
+              #reset{		
+                font-weight: 900;
+                background-color:#27d447;
+                width:100px;
+                height:40px;
+                color:white;
+                cursor: pointer;
+               }
+               #reset:hover{
+                background-color: rgb(42, 153, 42);
+               }
+               </style>
+            </div>
+            <div style="position:absolute;left:55em;top:15em;">
+              <button id="print" type="button" width=111px; onclick="print()">Print</button>
+              <style>
+                #print{		
+                  font-weight: 900;
+                  background-color:#27d447;
+                  width:100px;
+                  height:40px;
+                  color:white;
+                  cursor: pointer;
+                 }
+                 #print:hover{
+                  background-color: rgb(42, 153, 42);
+                 }
+                 </style>
+              </div>
+		    <div style="position:absolute;left:55em;top:8em;">
                 <button id="mytable" onclick="addtotable();"><strong>Add to Table</strong></button>
 			       <style>
 			            #mytable{
 			                      background-color:#27d447;
-			                      width:150px;
+			                      width:100px;
 		                          height:40px;
 		                          color:white;
+                              cursor: pointer;
 		                     	}
+                  #mytable:hover{
+                            background-color: rgb(42, 153, 42);
+                          }
 			       </style>
            </div>
       </div>
@@ -331,7 +394,7 @@ img.autoTransformerinner
             <div class="column20"><br/> <br/> <br/>            
                   <div style="position: relative; left: 0;">
                       <img src="Autotransformerouter.png" class="autoTrasformerouter rotate1"  />
-                      <img src="Autotransformerinner.png" class="autoTransformerinner " id= "cirmover2" style="transform: rotate(240deg);" onclick="rotaronoff();"/>
+                      <img src="Autotransformerinner.png" class="autoTransformerinner " id= "cirmover2" style="transform: rotate(240deg);cursor:pointer;" onclick="rotaronoff();"/>
                  </div>
            </div>
           <div class="column20_obser" >
@@ -339,17 +402,19 @@ img.autoTransformerinner
           </div>
           <div class="column30_obser" > <br/><br/>
           </div>
+          <h3 style="position:absolute;margin-left: 750px;">OBSERVATION TABLE</h3>
           <div class="column30">
-              <div style="position:absolute;left:52.75em;top:33.5em;">
+              <div style="position:absolute;left:55em;top:33.5em;">
                        <button id="check-button" onclick="Nextpage();" ><strong>Submit</strong></button>
               </div>
-		     <div id="table" style="background-color:#ecf0f5 ; position:absolute; top:26em;width:290px;height:70px;left:44em; overflow-y: auto;">
+		     <div id="table" style="position:absolute; top:22em;width:290px;height:70px;left:44em;">
 			     <form>
 			        <table id="mytable1" width="290" border="1" style="text-align:center" >
 			         	<tr>
-			         		<th width="25">Psc (Watt) </th>
-					        <th width="25">Isc (A)</th>
-					        <th width="25">Vsc (Volt)</th>
+			         		<th width="10">S.No.</th>
+			         		<th width="25">Psc(Watt)</th>
+					        <th width="25">Isc(A)</th>
+					        <th width="25">Vsc(V)</th>
 				        </tr>
 			        </table>
 		         </form>
@@ -359,6 +424,10 @@ img.autoTransformerinner
     </div>
   </div> 
 </div> 
+
+<footer>
+  <p>Copyright&copy; 2019 Virtual Labs, IIT Roorkee</p>
+</footer>
 
 <script src="jsplumb1.js"></script>
 <script src="demo1.js"></script>
