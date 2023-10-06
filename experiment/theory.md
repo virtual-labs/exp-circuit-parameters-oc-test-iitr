@@ -19,33 +19,61 @@ V<sub>1</sub> – voltmeter reading<br>
 I<sub>0</sub> – ammeter reading<br>
 Then the iron loss of the transformer P<sub>i</sub> = W<sub>0</sub> and<br>
 
-$$W_0 = V_1I_0CosФ ............................eq (1)$$
+<center style="font-size:18px;">
+
+$W_0 = V_1I_0CosФ ............................eq (1)$
+
+</center>
 
 The no-load power factor is
 
-$$CosФ = \frac{W_0}{V_1I_0}$$
+<center style="font-size:18px;">
+
+$CosФ = \frac{W_0}{V_1I_0}$
+
+</center>
 
 Working component I<sub>w</sub> is
 
-$$I_w = \frac{W_0}{V_1} .............................  eq (2)$$
+<center style="font-size:18px;">
+
+$I_w = \frac{W_0}{V_1} .............................  eq (2)$
+
+</center>
 
 Putting the value of W<sub>0</sub> from the equation (1) in equation (2) you will get the value of working component as
 
-$$I_w = I_0CosФ$$
+<center style="font-size:18px;">
+
+$I_w = I_0CosФ$
+
+</center>
 
 Magnetizing component is<br>
 
-$$I_m = [{I_0}^2 - {I_w}^2]^{1/2}$$
+<center style="font-size:18px;">
+
+$I_m = [{I_0}^2 - {I_w}^2]^{1/2}$
+
+</center>
 
 No load parameters are given below:<br>
 
 Equivalent exciting resistance is<br>
 
-$$R_0 = \frac{V_1}{I_w}$$
+<center style="font-size:18px;">
+
+$R_0 = \frac{V_1}{I_w}$
+
+</center>
 
 Equivalent exciting reactance is
 
-$$X_0 = \frac{V_1}{I_m}$$
+<center style="font-size:18px;">
+
+$X_0 = \frac{V_1}{I_m}$
+
+</center>
 
 ### Short Circuit Test:
 
@@ -73,19 +101,38 @@ I<sub>sc</sub> – Ammeter reading<br>
 
 Then the full load copper loss of the transformer is given by<br>
 
-$$P_c =  \left [\frac{I_{fl}}{I_{sc}}\right ]^2.W_c$$
+<center style="font-size:18px;">
 
-$$I_{sc}^2 R_s = W_c$$
+$P_c =  \left [\frac{I_{fl}}{I_{sc}}\right ]^2.W_c$
+
+</center>
+
+<center style="font-size:18px;">
+
+$I_{sc}^2 R_s = W_c$
+
+</center>
 
 Equivalent resistance referred to secondary side is
 
-$$R_s = \frac{W_c}{I_{sc}^2}$$
+<center style="font-size:18px;">
+
+$R_s = \frac{W_c}{I_{sc}^2}$
+
+</center>
 
 Equivalent impedance referred to the secondary side is given by<br>
 
-$$Z_s = \frac{V_{sc}}{I_{sc}}$$
+<center style="font-size:18px;">
+
+$Z_s = \frac{V_{sc}}{I_{sc}}$
+
+</center>
 
 The Equivalent reactance referred to the secondary side is given by<br>
 
-$$Xs = [(Z_s)^2 - (R_s)^2]^{1/2}$$
+<center style="font-size:18px;">
 
+$Xs = [(Z_s)^2 - (R_s)^2]^{1/2}$
+
+</center>

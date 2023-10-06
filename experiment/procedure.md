@@ -1,5 +1,5 @@
 <b>STEP 1:</b> Make the proper connection by clicking the node as instructed below. If the wire is wrongly connected, Click on the node number to detach the wire. <br>
-<table style="margin-left: 20px;">
+<table style="margin-left: 20px; text-align: center;">
     <tr>
         <td style="border:1px solid black;"><b>From</b></td>
         <td style="border:1px solid black;">A</td>
@@ -36,15 +36,15 @@
 
 <img src="images/Capture.PNG" align="center"  height="400" width="700"><br>
 <b>STEP 2: </b>Click on <b>"Check Connection"</b> button for checking the connections.
-<li>if connection is correct, an alert appears. Click ok.<br> Now, go to step 4.</li>
-<li>if connection is wrong, an alert appears. Click ok. <br>Now, go to step 3.</li><br>
+<li>If connection is correct, an alert appears. Click ok.<br> Now, go to step 4.</li>
+<li>If connection is wrong, an alert appears. Click ok. <br>Now, go to step 3.</li><br>
 <b>STEP 3: </b>Check the connection and either detach the incorrect wire connection or Click on <b>"Reset"</b> button and start from step 1.<br><br>
 <b>STEP 4: </b>Switch on the MCB.<br><br>
 <b>STEP 5: </b>Click on the Autotransformer knob.<br><br>
 <b>STEP 6: </b>Click on <b>"Add to Table"</b> button to add the readings to the observation table.<br><br>
 <b>STEP 7: </b> Click on <b>"Short Circuit Test"</b> button to perform the SC Test.<br><br>
-<b>STEP 8:</b> Make the proper connection by clicking the node as instructed below. If the wire is wrongly connected, Click on the node number to detach the wire. <br>
-    <table style="margin-left: 20px;">
+<b>STEP 8:</b> Make the proper connection by clicking the node as instructed below. If the wire is wrongly connected, Click on the node number to detach the wire. <br><br>
+    <table style="margin-left: 20px; text-align:center;">
         <tr>
             <td style="border:1px solid black;"><b>From</b></td>
             <td style="border:1px solid black;">A</td>
