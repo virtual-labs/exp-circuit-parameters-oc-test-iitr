@@ -7,7 +7,7 @@ The secondary winding of the transformer is kept open and the voltmeter is conne
 The value of no-load current is very small as compared to the full rated current. The copper loss occurs only on the primary winding of the transformer because the secondary winding is open. The reading of the wattmeter only represents the core and iron losses. The core loss of the transformer is same for all types of loads.<br>
 
 
-<Center><p><img src='images/open.PNG'  style="width:500px;height:250px;">
+<Center><p><img src='images/New folder/open.PNG'  style="width:500px;height:250px;">
 </p></Center>
 <center><b>Fig. 1 Equivalant circuit diagram for open circuit test on transformer</b></center><br>
 
@@ -87,7 +87,7 @@ The low voltage source is connected across the secondary winding because of whic
 The low voltage source is applied across the secondary winding which is approximately 5 to 10% of the normal rated voltage. The flux is set up in the core of the transformer. The magnitude of the flux is small as compared to the normal flux.
 The iron loss of the transformer depends on the flux. It is less occur in the short circuit test because of the low value of flux. The reading of the wattmeter only determines the copper loss occur on their windings. The voltmeter measures the voltage applied to their high voltage winding. The secondary current induces in the transformer because of the applied voltage.<br>
 
-<Center><img src='images/short.PNG' style="width:500px;height:250px;"></Center>
+<Center><img src='images/New folder/short.PNG' style="width:500px;height:250px;"></Center>
 <center><b>Fig. 2 Equivalant circuit diagram for short circuit test on transformer</b></center>
  
 ### Calculation of Short Circuit Test:
