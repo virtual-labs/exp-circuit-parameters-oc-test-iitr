@@ -25,7 +25,7 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 1 | Prof. RS Anand | Faculty | Electrical Engineering | IIT Roorkee, Roorkee | anandfee@gmail.com
 2 | Jasbir Singh | Research Fellow | Electrical Engineering | IIT Roorkee, Roorkee | jasbirjassy6@gmail.com 
 3 | Rajeev Kumar | Research Fellow | Electrical Engineering | IIT Roorkee, Roorkee | rajeevkumar.rke@gmail.com
-4 | Priyanshi Agarwal | Research Fellow | Electrical Engineering | IIT Roorkee, Roorkee | priyanshi.a07@gmail.com
+4 | Nipun Jain | Research Fellow | Electrical Engineering | IIT Roorkee, Roorkee | nipunjain1305@gmail.com
 
 
 <br>
