@@ -7,9 +7,16 @@ The secondary winding of the transformer is kept open and the voltmeter is conne
 The value of no-load current is very small as compared to the full rated current. The copper loss occurs only on the primary winding of the transformer because the secondary winding is open. The reading of the wattmeter only represents the core and iron losses. The core loss of the transformer is same for all types of loads.<br>
 
 
+
+<Center><img src='images/New folder/open.PNG'style="width:500px;height:250px;"></Center>
+<center><b>Fig. 1 Equivalant circuit diagram for open circuit test on transformer</b></center><br>
+
+
+
 <Center><p><img src='images/New folder/open.PNG'  style="width:500px;height:250px;">
 </p></Center>
 <center><b>Fig. 1 Equivalant circuit diagram for open circuit test on transformer</b></center><br>
+
 
 ### Calculation of Open Circuit Test:
 Let,<br>
