@@ -11,12 +11,6 @@ The value of no-load current is very small as compared to the full rated current
 </p></Center>
 <center><b>Fig. 1 Equivalant circuit diagram for open circuit test on transformer</b></center><br>
 
-<CENTER><p><img src='images/open.png'  style="width:500px;height:250px;">
-</p></CENTER><br>
-<center><b>Figure : Equivalant circuit diagram for open circuit test on transformer</b></center><br>
-
-
-
 ### Calculation of Open Circuit Test:
 Let,<br>
 
@@ -95,12 +89,6 @@ The iron loss of the transformer depends on the flux. It is less occur in the sh
 
 <Center><img src='images/short.PNG' style="width:500px;height:250px;"></Center>
 <center><b>Fig. 2 Equivalant circuit diagram for short circuit test on transformer</b></center>
-=======
-<CENTER><p><img src='images/short.png' style="width:500px;height:250px;">
-</p></CENTER><br>
-<center><b>Figure : Equivalant circuit diagram for short circuit test on transformer</b></center><br>
-
-
  
 ### Calculation of Short Circuit Test:
 
