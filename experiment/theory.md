@@ -8,7 +8,7 @@ The value of no-load current is very small as compared to the full rated current
 
 dev
 <Center><img src='images/New folder/open.PNG'style="width:500px;height:250px;"></Center>
-<center><b>Fig. 1 Equivalant circuit diagram for open circuit test on transformer</b></center><br>
+<center><b>Fig. 1 Equivalent circuit diagram for open circuit test on transformer</b></center><br>
 
 
 ### Calculation of Open Circuit Test:
@@ -88,12 +88,7 @@ The low voltage source is applied across the secondary winding which is approxim
 The iron loss of the transformer depends on the flux. It is less occur in the short circuit test because of the low value of flux. The reading of the wattmeter only determines the copper loss occur on their windings. The voltmeter measures the voltage applied to their high voltage winding. The secondary current induces in the transformer because of the applied voltage.<br>
 
 <Center><img src='images/New folder/short.PNG' style="width:500px;height:250px;"></Center>
-<center><b>Fig. 2 Equivalant circuit diagram for short circuit test on transformer</b></center>
-=======
-<CENTER><p><img src='images/short.png' style="width:500px;height:250px;">
-</p></CENTER><br>
-<center><b>Figure : Equivalant circuit diagram for short circuit test on transformer</b></center><br>
-
+<center><b>Fig. 2 Equivalent circuit diagram for short circuit test on transformer</b></center>
 
  
 ### Calculation of Short Circuit Test:
