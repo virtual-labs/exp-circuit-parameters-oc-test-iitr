@@ -22,7 +22,7 @@ Then the iron loss of the transformer P<sub>i</sub> = W<sub>0</sub> and<br>
 
 
 
-$$ W_{0} = V_{1}I_{0}CosФ ............................(1) $$
+$$ W_{0} = V_{1}I_{0}\cosФ ............................(1) $$
 
 
 
@@ -64,7 +64,7 @@ Equivalent exciting resistance is<br>
 
 <center style="font-size:18px;">
 
-$R_0 = \frac{V_1}{I_w}$
+$$ R_{0} = \frac{V_{1}} {I_{w}} $$
 
 </center>
 
