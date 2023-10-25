@@ -20,11 +20,11 @@ V<sub>1</sub> – voltmeter reading<br>
 I<sub>0</sub> – ammeter reading<br>
 Then the iron loss of the transformer P<sub>i</sub> = W<sub>0</sub> and<br>
 
-<center style="font-size:18px;">
 
-$W_0 = V_1I_0CosФ ............................eq (1)$
 
-</center>
+$$ W_{0} = V_{1}I_{0}CosФ ............................(1) $$
+
+
 
 The no-load power factor is
 
