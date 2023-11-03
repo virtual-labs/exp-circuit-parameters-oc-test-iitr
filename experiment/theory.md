@@ -21,10 +21,10 @@ I<sub>0</sub> – ammeter reading<br>
 Then the iron loss of the transformer P<sub>i</sub> = W<sub>0</sub> and<br>
 
 
-
+<center style="font-size:18px;">
 W<sub>0</sub> = V<sub>1</sub>I<sub>0</sub>cosФ ............................(1)
 
-
+</center>
 
 The no-load power factor is
 
@@ -110,7 +110,7 @@ P<sub>c</sub> =   [I<sub>fl</sub>/I<sub>sc</sub>]<sup>2</sup>.W<sub>c</sub>
 
 <center style="font-size:18px;">
 
-I<sub>sc</sub><sup>2</sup>R<sub>s</sub> = W<sub>c</sub>
+I<sub>sc</sub><sup>2</sup>.R<sub>s</sub> = W<sub>c</sub>
 
 </center>
 
@@ -118,7 +118,7 @@ Equivalent resistance referred to secondary side is
 
 <center style="font-size:18px;">
 
-R<sub>s</sub> = W<sub>c</sub>I<sub>sc</sub><sup>2</sup>
+R<sub>s</sub> = W<sub>c</sub>.I<sub>sc</sub><sup>2</sup>
 
 </center>
 
