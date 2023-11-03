@@ -22,7 +22,7 @@ Then the iron loss of the transformer P<sub>i</sub> = W<sub>0</sub> and<br>
 
 
 
-$$ W_{0} = V_{1}I_{0}\cosФ ............................(1) $$
+W_{0} = V_{1}I_{0}\cos(\phi) ............................(1)
 
 
 
