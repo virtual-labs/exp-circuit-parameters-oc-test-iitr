@@ -22,7 +22,7 @@ Then the iron loss of the transformer P<sub>i</sub> = W<sub>0</sub> and<br>
 
 
 
-W_{0} = V_{1}I_{0}\cos(\phi) ............................(1)
+W<sub>0</sub> = V<sub>1</sub>I<sub>0</sub>cosФ ............................(1)
 
 
 
@@ -30,7 +30,7 @@ The no-load power factor is
 
 <center style="font-size:18px;">
 
-$CosФ = \frac{W_0}{V_1I_0}$
+cosФ = W<sub>0</sub>/(V<sub>1</sub>I<sub>0</sub>)
 
 </center>
 
@@ -38,7 +38,7 @@ Working component I<sub>w</sub> is
 
 <center style="font-size:18px;">
 
-$I_w = \frac{W_0}{V_1} .............................  eq (2)$
+I<sub>w</sub> = W<sub>0</sub>/V<sub>0</sub> ............................. (2)
 
 </center>
 
@@ -46,7 +46,7 @@ Putting the value of W<sub>0</sub> from the equation (1) in equation (2) you wil
 
 <center style="font-size:18px;">
 
-$I_w = I_0CosФ$
+I<sub>w</sub> = I<sub>0</sub>cosФ
 
 </center>
 
@@ -54,7 +54,7 @@ Magnetizing component is<br>
 
 <center style="font-size:18px;">
 
-$I_m = [{I_0}^2 - {I_w}^2]^{1/2}$
+I<sub>m</sub> = (I<sub>0</sub><sup>2</sup> - I<sub>w</sub><sup>2</sup>)<sup>1/2</sup>
 
 </center>
 
@@ -64,7 +64,7 @@ Equivalent exciting resistance is<br>
 
 <center style="font-size:18px;">
 
-$$ R_{0} = \frac{V_{1}} {I_{w}} $$
+R<sub>0</sub> = V<sub>1</sub>/I<sub>1</sub> 
 
 </center>
 
@@ -72,7 +72,7 @@ Equivalent exciting reactance is
 
 <center style="font-size:18px;">
 
-$X_0 = \frac{V_1}{I_m}$
+X<sub>0</sub>  =  V<sub>1</sub>/I<sub>m</sub> 
 
 </center>
 
@@ -104,13 +104,13 @@ Then the full load copper loss of the transformer is given by<br>
 
 <center style="font-size:18px;">
 
-$P_c =  \left [\frac{I_{fl}}{I_{sc}}\right ]^2.W_c$
+P<sub>c</sub> =   [I<sub>fl</sub>/I<sub>sc</sub>]<sup>2</sup>.W<sub>c</sub>
 
 </center>
 
 <center style="font-size:18px;">
 
-$I_{sc}^2 R_s = W_c$
+I<sub>sc</sub><sup>2</sup>R<sub>s</sub> = W<sub>c</sub>
 
 </center>
 
@@ -118,7 +118,7 @@ Equivalent resistance referred to secondary side is
 
 <center style="font-size:18px;">
 
-$R_s = \frac{W_c}{I_{sc}^2}$
+R<sub>s</sub> = W<sub>c</sub>I<sub>sc</sub><sup>2</sup>
 
 </center>
 
@@ -126,7 +126,7 @@ Equivalent impedance referred to the secondary side is given by<br>
 
 <center style="font-size:18px;">
 
-$Z_s = \frac{V_{sc}}{I_{sc}}$
+Z<sub>s</sub> = V<sub>sc</sub>/I<sub>sc</sub>
 
 </center>
 
@@ -134,6 +134,6 @@ The Equivalent reactance referred to the secondary side is given by<br>
 
 <center style="font-size:18px;">
 
-$Xs = [(Z_s)^2 - (R_s)^2]^{1/2}$
+X<sub>s</sub> = [Z<sub>s</sub><sup>2</sup> - R<sub>s</sub><sup>2</sup>]<sup>1/2</sup>
 
 </center>
