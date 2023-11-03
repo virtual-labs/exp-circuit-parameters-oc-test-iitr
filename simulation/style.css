@@ -1,0 +1,122 @@
+         .wrapper {
+        width: 800px;
+        position: relative;
+        top: 100%;
+        left: 30%; 
+        display: inline-block; 
+      }
+
+
+      .meter {
+        display: block;
+        width: 283px;
+        height: 155px;
+        margin: 0px auto
+
+      }
+
+      .meter-shape {
+        -webkit-transform: skewX(-2deg) skewY(1deg);
+                transform: skewX(-2deg) skewY(1deg);
+        stroke-width: 18;
+        stroke-dashoffset: 253;
+        stroke: blue;
+        fill: none;
+      }
+
+      .meter-clock {
+        -webkit-transform: rotate(-54deg);
+                transform: rotate(-54deg);
+        -webkit-transform-origin: 137px 146px;
+                transform-origin: 137px 146px;
+        fill: red;
+      }
+
+      .meter-clock2 {
+        -webkit-transform: rotate(-54deg);
+                transform: rotate(-54deg);
+        -webkit-transform-origin: 137 px 146px;
+                transform-origin: 137px 146px;
+        fill: red;
+      }
+      .meter-clock3 {
+        -webkit-transform: rotate(-54deg);
+                transform: rotate(-54deg);
+        -webkit-transform-origin: 137 px 146px;
+                transform-origin: 137px 146px;
+        fill: red;
+      }
+	  .meter-clock4 {
+        -webkit-transform: rotate(-54deg);
+                transform: rotate(-54deg);
+        -webkit-transform-origin: 137 px 146px;
+                transform-origin: 137px 146px;
+        fill: red;
+      }
+
+
+      #range {
+        margin-bottom: 50px;
+        width: 130px;
+      }
+
+      .meter1 {
+        margin-top:130px;
+      }
+
+      .meter2 {
+       margin-top:130px;
+      }
+      .meter-clock2{
+      width: 20px;
+       margin-top:-500px;
+      }
+      .meter3 {
+
+       margin-top:130px;
+      }
+	  .meter4 {
+
+       margin-top:130px;
+      }
+
+      .other {
+        text-align: center;
+         margin-top: 0px;
+      }
+
+    .container{
+    width: 20%;
+    
+  }
+
+  .voltMeter{
+    position: absolute;
+    margin-top: -23px;
+  }
+  .amMeter{
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 174px;
+  }
+  .wattMeter{
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 348px;
+  }
+
+  .box{
+    
+    background: none;
+    margin: 0px 10px;
+    transition: 1s;
+
+  }
+  .box:hover{
+    transform: scale(1.2);
+    background: none;
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+    
+  }
+
