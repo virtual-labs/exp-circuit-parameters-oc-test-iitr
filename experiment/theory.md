@@ -8,7 +8,7 @@ The value of no-load current is very small as compared to the full rated current
 
 
 
-<Center><img src='images/New folder/open.PNG'style="width:500px;height:250px;"></Center>
+<Center><img src='images/oc.PNG'style="width:500px;height:250px;"></Center>
 <center><b>Fig. 1 Equivalent circuit diagram for open circuit test on transformer</b></center><br>
 
 
@@ -88,7 +88,7 @@ The low voltage source is connected across the secondary winding because of whic
 The low voltage source is applied across the secondary winding which is approximately 5 to 10% of the normal rated voltage. The flux is set up in the core of the transformer. The magnitude of the flux is small as compared to the normal flux.
 The iron loss of the transformer depends on the flux. It is less occur in the short circuit test because of the low value of flux. The reading of the wattmeter only determines the copper loss occur on their windings. The voltmeter measures the voltage applied to their high voltage winding. The secondary current induces in the transformer because of the applied voltage.<br>
 
-<Center><img src='images/New folder/short.PNG' style="width:500px;height:250px;"></Center>
+<Center><img src='images/sc.PNG' style="width:500px;height:250px;"></Center>
 
 <center><b>Fig. 2 Equivalent circuit diagram for short circuit test on transformer</b></center>
  
